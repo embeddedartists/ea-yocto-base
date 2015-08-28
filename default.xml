@@ -27,10 +27,10 @@
   <project remote="OSSystems" revision="63963cc56c8d0291779693e62b66cb16e5c86883" name="meta-browser" path="sources/meta-browser" />
   <project remote="QT5" revision="41c5daa84af4466bfc9aa61f6f772c68470a628b" name="meta-qt5" path="sources/meta-qt5" />
 
-  <project remote="fsl-release" name="meta-fsl-bsp-release" path="sources/meta-fsl-bsp-release" revision="dizzy_3.14.28-1.0.0_GA" >
-     <copyfile src="imx/tools/fsl-setup-release.sh" dest="fsl-setup-release.sh"/>
-  </project>
+  <project remote="fsl-release" name="meta-fsl-bsp-release" path="sources/meta-fsl-bsp-release" revision="dizzy_3.14.28-1.0.0_GA"/>
 
-  <project remote="EA" revision="e34bfe42c9ac2389bc3c8df3ab12902bc6584630" name="meta-ea" path="sources/meta-ea"/>
+  <project remote="EA" revision="b89b40b8fd6b109cfc9eec77496cb97425961596" name="meta-ea" path="sources/meta-ea">
+        <copyfile src="ea-setup-release.sh" dest="ea-setup-release.sh"/>
+  </project>
 
 </manifest>

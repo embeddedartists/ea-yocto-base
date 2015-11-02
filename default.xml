@@ -11,26 +11,26 @@
   <remote fetch="git://github.com/meta-qt5"  name="QT5"/>
   <remote fetch="git://github.com/embeddedartists"  name="EA"/>
 
-  <project remote="yocto" revision="f20e4c0cf6ddb29a1aad6e7b095e1472e81d330c" name="poky" path="sources/poky"/>
-  <project remote="yocto" revision="b74e5e690d8d4e149ea9de3f0fcca37bad93935f" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
+  <project remote="yocto" revision="83aa565d93aacae484976562ef1ae8dbbb6b2bc0" name="poky" path="sources/poky"/>
+  <project remote="yocto" revision="c5326c90d6754c8630504ae29244907b0841c3a9" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
 
-  <project remote="oe" revision="7bbacd0023fa1111da94ba0b2aafd7d872301ffe" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="oe" revision="10d3c8f85280a0bf867a8e4f84bcda81c290d28e" name="meta-openembedded" path="sources/meta-openembedded"/>
 
   <project remote="freescale" revision="89c605386ec81d64b38562acbc66942964fad971" name="fsl-community-bsp-base" path="sources/base">
         <copyfile dest="README" src="README"/>
         <copyfile dest="setup-environment" src="setup-environment"/>
   </project>
 
-  <project remote="freescale" revision="b32528c10caac5e85f2b5efe0e5b95322dd68ace" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
-  <project remote="freescale" revision="48cb0bcdd226d2e7eee1fdc222713e1dff93342c" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
+  <project remote="freescale" revision="436b86e3421736216412bdbb21cd9cb08c758c75" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
+  <project remote="freescale" revision="836bdf5a9d500ed258f1ddc07d89eca74a704098" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
 
-  <project remote="OSSystems" revision="63963cc56c8d0291779693e62b66cb16e5c86883" name="meta-browser" path="sources/meta-browser" />
-  <project remote="QT5" revision="41c5daa84af4466bfc9aa61f6f772c68470a628b" name="meta-qt5" path="sources/meta-qt5" />
+  <project remote="OSSystems" revision="4b27058a8275a5310161459c9bb8f4c52a77762c" name="meta-browser" path="sources/meta-browser" />
+  <project remote="QT5" revision="fc026381545650e10fdd488d5b2a3b2d78f87793" name="meta-qt5" path="sources/meta-qt5" />
 
-  <project remote="fsl-release" name="meta-fsl-bsp-release" path="sources/meta-fsl-bsp-release" revision="dizzy_3.14.28-1.0.0_GA"/>
+  <project remote="fsl-release" name="meta-fsl-bsp-release" path="sources/meta-fsl-bsp-release" revision="fido_3.14.38_6UL_ga"/>
 
-  <project remote="EA" revision="b89b40b8fd6b109cfc9eec77496cb97425961596" name="meta-ea" path="sources/meta-ea">
-        <copyfile src="ea-setup-release.sh" dest="ea-setup-release.sh"/>
+  <project remote="EA" revision="c5a6ca6c5f714a409b6b28d31401988dae808841" name="meta-ea" path="sources/meta-ea">
+        <copyfile src="ea-setup-release_3_14_38.sh" dest="ea-setup-release.sh"/>
   </project>
 
 </manifest>

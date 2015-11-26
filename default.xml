@@ -29,7 +29,7 @@
 
   <project remote="fsl-release" name="meta-fsl-bsp-release" path="sources/meta-fsl-bsp-release" revision="dizzy_3.14.28-1.0.0_GA"/>
 
-  <project remote="EA" revision="1f31f89e0c85a2a81fa97bcd4e98c873f438717e" name="meta-ea" path="sources/meta-ea">
+  <project remote="EA" revision="338b57990aeba617b0319233102db85ed9a4afe2" name="meta-ea" path="sources/meta-ea">
         <copyfile src="ea-setup-release.sh" dest="ea-setup-release.sh"/>
   </project>
 

@@ -25,7 +25,7 @@
   <project remote="freescale" revision="17f9da65efb5c65c1d44b5cc18584034b29a742b" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
 
   <project remote="OSSystems" revision="30b8d6b3d0d6501c56ef6967a2fa73a3d4bf5fe9" name="meta-browser" path="sources/meta-browser" />
-  <project remote="QT5" revision="41c5daa84af4466bfc9aa61f6f772c68470a628b" name="meta-qt5" path="sources/meta-qt5" />
+  <project remote="QT5" revision="51b4620392aa9041d8512549bfa554bea368c5ea" name="meta-qt5" path="sources/meta-qt5" />
 
   <project remote="fsl-release" name="meta-fsl-bsp-release" path="sources/meta-fsl-bsp-release" revision="fido_3.14.52_1.1.0_ga"/>
 

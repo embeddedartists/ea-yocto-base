@@ -29,7 +29,7 @@
 
   <project remote="fsl-release" name="meta-fsl-bsp-release" path="sources/meta-fsl-bsp-release" revision="fido_3.14.52_1.1.0_ga"/>
 
-  <project remote="EA" revision="a35624d7de92b980fcae9c483c45f14437e66136" name="meta-ea" path="sources/meta-ea">
+  <project remote="EA" revision="6a071e1e50ea8583e2019ba876920f3629a763d0" name="meta-ea" path="sources/meta-ea">
         <copyfile src="ea-setup-release_3_14_52.sh" dest="ea-setup-release.sh"/>
   </project>
 

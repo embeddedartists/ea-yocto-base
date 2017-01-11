@@ -10,6 +10,7 @@
   <remote fetch="git://github.com/OSSystems" name="OSSystems"/>
   <remote fetch="git://github.com/meta-qt5"  name="QT5"/>
   <remote fetch="git://github.com/embeddedartists"  name="EA"/>
+  <remote fetch="git://github.com/imyller"  name="imyller"/>
 
   <project remote="yocto" revision="dd0ba9ea4a11ab15348d4fe3574e4b28784db82f" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="35b8b9bd9863de208ab60e33b55f10ee43e2619b" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
@@ -29,9 +30,12 @@
 
   <project remote="fsl-release" name="meta-fsl-bsp-release" path="sources/meta-fsl-bsp-release" revision="jethro_4.1.15-1.0.0_ga" />
 
-  <project remote="EA" name="meta-ea" path="sources/meta-ea" revision="8c9d64ddc17d661db804830c324533a364414fa7" >
+  <project remote="EA" name="meta-ea" path="sources/meta-ea" revision="a635c47b068d14132a093a449563aedad5604f5e" >
      <copyfile src="ea-setup-release.sh" dest="ea-setup-release.sh"/>
   </project>
+
+  <project remote="imyller" name="meta-nodejs" path="sources/meta-nodejs" revision="4f5c22cf8b545ceae5b37f70d5fc0f77087b5e22" />
+  <project remote="imyller" name="meta-nodejs-contrib" path="sources/meta-nodejs-contrib" revision="be99cba0c6fcfb1ba7e85d3446f2a806ae7c3da2" />
 
 
 </manifest>

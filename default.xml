@@ -30,7 +30,7 @@
 
   <project remote="fsl-release" name="meta-fsl-bsp-release" path="sources/meta-fsl-bsp-release" revision="jethro_4.1.15-1.0.0_ga" />
 
-  <project remote="EA" name="meta-ea" path="sources/meta-ea" revision="7ddc4c993d8aaad193e31df77b0d02d491edf08a" >
+  <project remote="EA" name="meta-ea" path="sources/meta-ea" revision="a1c2fdff51640edd6a214f9fc4951026c9b189ff" >
      <copyfile src="ea-setup-release.sh" dest="ea-setup-release.sh"/>
   </project>
 

@@ -30,7 +30,7 @@
 
   <project remote="fsl-release" name="meta-fsl-bsp-release" path="sources/meta-fsl-bsp-release" revision="krogoth_4.1.15-2.0.1" />
 
-  <project remote="EA" name="meta-ea" path="sources/meta-ea" revision="d7c84de0d4cd126a05c03a84e6b6ab040bf37c4f" >
+  <project remote="EA" name="meta-ea" path="sources/meta-ea" revision="65f8469f0c72b5e7fa2d1eb80089b28101ae2464" >
      <copyfile src="ea-setup-release.sh" dest="ea-setup-release.sh"/>
   </project>
 

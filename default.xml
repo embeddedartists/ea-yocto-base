@@ -30,9 +30,11 @@
 
   <project remote="fsl-release" name="meta-fsl-bsp-release" path="sources/meta-fsl-bsp-release" revision="daba3340ecd8b358e0c6c415baeee0fcae95c525" />
 
-  <project remote="EA" name="meta-ea" path="sources/meta-ea" revision="17cbbaae5c03c07203e88be2b2d3097f7a87f559" >
+  <project remote="EA" name="meta-ea" path="sources/meta-ea" revision="b774d6a41ecce126942a17402aa664e56d386405" >
      <copyfile src="ea-setup-release.sh" dest="ea-setup-release.sh"/>
   </project>
+
+  <project remote="EA" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="50505a68fe71c4d7a4ba8e3702816ee148f19ef1" >
 
   <project remote="imyller" name="meta-nodejs" path="sources/meta-nodejs" revision="4f5c22cf8b545ceae5b37f70d5fc0f77087b5e22" />
   <project remote="imyller" name="meta-nodejs-contrib" path="sources/meta-nodejs-contrib" revision="be99cba0c6fcfb1ba7e85d3446f2a806ae7c3da2" />

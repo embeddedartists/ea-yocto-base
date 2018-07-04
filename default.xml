@@ -34,7 +34,7 @@
      <copyfile src="ea-setup-release.sh" dest="ea-setup-release.sh"/>
   </project>
 
-  <project remote="EA" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="50505a68fe71c4d7a4ba8e3702816ee148f19ef1" >
+  <project remote="EA" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="50505a68fe71c4d7a4ba8e3702816ee148f19ef1" />
 
   <project remote="imyller" name="meta-nodejs" path="sources/meta-nodejs" revision="4f5c22cf8b545ceae5b37f70d5fc0f77087b5e22" />
   <project remote="imyller" name="meta-nodejs-contrib" path="sources/meta-nodejs-contrib" revision="be99cba0c6fcfb1ba7e85d3446f2a806ae7c3da2" />

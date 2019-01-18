@@ -4,38 +4,33 @@
   <default sync-j="2"/>
 
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
-  <remote fetch="git://github.com/Freescale" name="freescale"/>
+  <remote fetch="git://github.com/Freescale" name="community"/>
   <remote fetch="git://github.com/openembedded" name="oe"/>
   <remote fetch="git://github.com/OSSystems" name="OSSystems"/>
   <remote fetch="git://github.com/meta-qt5"  name="QT5"/>
   <remote fetch="git://github.com/embeddedartists"  name="EA"/>
-  <remote fetch="git://github.com/imyller"  name="imyller"/>
   <remote fetch="https://source.codeaurora.org/external/imx" name="CAF"/>
 
-  <project remote="yocto" revision="9ed1178c87afce997d5a21cadae7461fb6bb48da" name="poky" path="sources/poky"/>
-  <project remote="yocto" revision="a4158e3425a79720ddc4c02e76251d567bdceb51" name="meta-freescale" path="sources/meta-freescale"/>
+  <project remote="yocto" revision="64a257fa22126c4a40ff7e03424a404e360ebe1e" name="poky" path="sources/poky"/>
+  <project remote="yocto" revision="407c6cf408969445031a492e2d25e0e2749582ea" name="meta-freescale" path="sources/meta-freescale"/>
 
-  <project remote="oe" revision="352531015014d1957d6444d114f4451e241c4d23" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="oe" revision="2bb21ef27c4b0c9d52d30b3b2c5a0160fd02b966" name="meta-openembedded" path="sources/meta-openembedded"/>
 
-  <project remote="freescale" revision="70535e13dd2aabbad53243518f4cc5064d284592" name="fsl-community-bsp-base" path="sources/base">
+  <project remote="community" revision="70535e13dd2aabbad53243518f4cc5064d284592" name="fsl-community-bsp-base" path="sources/base">
         <copyfile dest="README" src="README"/>
         <copyfile dest="setup-environment" src="setup-environment"/>
   </project>
 
-  <project remote="freescale" revision="a02324e27f7a7ac630dab616f46a8bad7fe2c071" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
-  <project remote="freescale" revision="51756d1c2058139c8a21f89b86cfd8007b71b7f0" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
+  <project remote="community" revision="88a29631809d1af0df618245430db29f2a7012b5" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
+  <project remote="community" revision="f7e2216e93aff14ac32728a13637a48df436b7f4" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
 
-  <project remote="OSSystems" revision="2ae23f16309d228ec6f1a25e404b3941115083ee" name="meta-browser" path="sources/meta-browser" />
-  <project remote="QT5" revision="682ad61c071a9710e9f9d8a32ab1b5f3c14953d1" name="meta-qt5" path="sources/meta-qt5" />
+  <project remote="OSSystems" revision="75640e14e325479c076b6272b646be7a239c18aa" name="meta-browser" path="sources/meta-browser" />
+  <project remote="QT5" revision="d4e7f73d04e8448d326b6f89908701e304e37d65" name="meta-qt5" path="sources/meta-qt5" />
 
-  <project remote="CAF" revision="3a84e93f48f3986d5ba364c52b4faa96c87b88c8" name="meta-fsl-bsp-release" path="sources/meta-fsl-bsp-release" />
+  <project remote="CAF" revision="9867dae67c158e0820bf226bd18b792623e99b25" name="meta-fsl-bsp-release" path="sources/meta-fsl-bsp-release" />
 
-  <project remote="EA" name="meta-ea" path="sources/meta-ea" revision="e8c08d3cd15e199ca1d1de564d7c419711b8a4f7" >
+  <project remote="EA" name="meta-ea" path="sources/meta-ea" revision="99094cf3c8d8cebeaab3b981942776ddfe4d9bc5" >
      <copyfile src="ea-setup-release.sh" dest="ea-setup-release.sh"/>
   </project>
-
-  <project remote="imyller" name="meta-nodejs" path="sources/meta-nodejs" revision="4f5c22cf8b545ceae5b37f70d5fc0f77087b5e22" />
-  <project remote="imyller" name="meta-nodejs-contrib" path="sources/meta-nodejs-contrib" revision="be99cba0c6fcfb1ba7e85d3446f2a806ae7c3da2" />
-
 
 </manifest>

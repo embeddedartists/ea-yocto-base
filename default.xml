@@ -8,7 +8,7 @@
   <remote fetch="git://github.com/openembedded" name="oe"/>
   <remote fetch="git://github.com/OSSystems" name="OSSystems"/>
   <remote fetch="git://github.com/meta-qt5"  name="QT5"/>
-  <remote fetch="git://github.com/embeddedartists"  name="EA"/>
+  <remote fetch="git://github.com/bchen-murata"  name="EA"/>
   <remote fetch="git://github.com/bchen-murata"  name="Murata"/>
 
   <remote fetch="https://source.codeaurora.org/external/imx" name="CAF"/>
@@ -31,10 +31,10 @@
 
   <project remote="CAF" revision="c2602efbe743dbe5e7907646694d772144b56b2d" name="meta-fsl-bsp-release" path="sources/meta-fsl-bsp-release" />
 
-  <project remote="EA" name="meta-ea" path="sources/meta-ea" revision="eb74109baa704fa52f3529bc746a0c088feb4019" >
+  <project remote="EA" name="meta-ea" path="sources/meta-ea" revision="7db2942922b06c66d9e9b6a3392e9580800cd366" >
      <copyfile src="ea-setup-release.sh" dest="ea-setup-release.sh"/>
   </project>
 
-  <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="585106e7b03f318fc9ce95857de4163a9c635770" />
+  <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="ec8dae5aae5217c92c2d94f76c8939a688a04e54" />
 
 </manifest>

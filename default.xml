@@ -9,7 +9,7 @@
   <remote fetch="git://github.com/OSSystems" name="OSSystems"/>
   <remote fetch="git://github.com/meta-qt5"  name="QT5"/>
   <remote fetch="git://github.com/bchen-murata"  name="EA"/>
-  <remote fetch="git://github.com/bchen-murata"  name="Murata"/>
+  <remote fetch="git://github.com/murata-wireless"  name="Murata"/>
 
   <remote fetch="https://source.codeaurora.org/external/imx" name="CAF"/>
 
@@ -35,6 +35,6 @@
      <copyfile src="ea-setup-release.sh" dest="ea-setup-release.sh"/>
   </project>
 
-  <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="0e778f04a11e24f9c5fb8b775c49e89e4f232903" />
+  <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="e9c69a2d7aa29b08df2243250bc64bd552a71dfc" />
 
 </manifest>

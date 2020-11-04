@@ -31,7 +31,7 @@
 
   <project remote="CAF" revision="c2602efbe743dbe5e7907646694d772144b56b2d" name="meta-fsl-bsp-release" path="sources/meta-fsl-bsp-release" />
 
-  <project remote="EA" name="meta-ea" path="sources/meta-ea" revision="0600248d8a7b3d9ca8a8aaaccb53a75e6c69b4d1" >
+  <project remote="EA" name="meta-ea" path="sources/meta-ea" revision="9be99806466ef7862ad4ce219c4ea6578cc3abb6" >
      <copyfile src="ea-setup-release.sh" dest="ea-setup-release.sh"/>
   </project>
 

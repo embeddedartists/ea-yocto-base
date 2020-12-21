@@ -8,7 +8,7 @@
   <project name="meta-mender" remote="mender" revision="sumo" path="sources/meta-mender"/>
   <project name="meta-mender-community" remote="mender" revision="sumo" path="sources/meta-mender-community"/>
 
-  <project name="meta-ea-mender" remote="EA" path="sources/meta-ea-mender" revision="60f77270d41f0b048352c06224ca704ca58f2679">
+  <project name="meta-ea-mender" remote="EA" path="sources/meta-ea-mender" revision="5f119dd4cdfbda5d0e6b623a72a2aa80da2243e7">
      <linkfile src="scripts/ea-setup-mender.sh" dest="ea-setup-mender.sh"/>
   </project>
 

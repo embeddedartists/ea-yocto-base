@@ -38,7 +38,7 @@
 
   <project name="poky" path="sources/poky" remote="yocto" revision="cba967414370e195d109353e51510bd829aa86c3"/>
 
-  <project remote="EA" name="meta-ea" path="sources/meta-ea" revision="d1bf953c1fde336938dbf4aa7443980e20dd7341" >
+  <project remote="EA" name="meta-ea" path="sources/meta-ea" revision="e317932fed0dbb357b8586c05d515916bd72e538" >
      <copyfile src="ea-setup-release.sh" dest="ea-setup-release.sh"/>
   </project>
 

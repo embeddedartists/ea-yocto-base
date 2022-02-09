@@ -44,7 +44,7 @@
   <project name="meta-clang" path="sources/meta-clang" remote="clang" revision="b0d805060791006d651efd3d7ae3dd5add8f70fe" upstream="hardknott"/>
   <project name="meta-nxp-demo-experience" path="sources/meta-nxp-demo-experience" remote="imx-support" revision="9dcc11ea9f525cffedbb28895e0abb443e56c3e0" upstream="imx_5.10.y"/>
 
-  <project remote="EA" name="meta-ea" path="sources/meta-ea" revision="06f5b8198aefb067fbaa2df18e891e815a65a198" >
+  <project remote="EA" name="meta-ea" path="sources/meta-ea" revision="022f9155d8e95f3916d851eda19de3a0d69ccdb3" >
      <copyfile src="ea-setup-release.sh" dest="ea-setup-release.sh"/>
   </project>
 

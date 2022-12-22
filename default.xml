@@ -44,10 +44,10 @@
   <project name="meta-clang" path="sources/meta-clang" remote="clang" revision="85d956d95401479ca666139e31f662f60c156d5f" upstream="kirkstone"/>
   <project name="meta-nxp-demo-experience" path="sources/meta-nxp-demo-experience" remote="imx-support" revision="8fade3993b832ecd823771644f2a7b731f8f4527" upstream="kirkstone"/>
 
-  <project remote="EA" name="meta-ea" path="sources/meta-ea" revision="05219a63eab915b8167ab1a34fbef989db3dc14e" >
+  <project remote="EA" name="meta-ea" path="sources/meta-ea" revision="f0340a10a5d08c5cab78beb4129862afa27bd8be" >
      <copyfile src="ea-setup-release.sh" dest="ea-setup-release.sh"/>
   </project>
 
-  <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="82edf644d3a6ef0f748dd03fa4f6c855b71bccc4" />
+  <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="e78888e80bd76c82cda5bd8293c7e287cf571a26" />
 
 </manifest>

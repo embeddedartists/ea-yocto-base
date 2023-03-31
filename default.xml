@@ -3,51 +3,50 @@
 
   <default sync-j="2"/>
 
-  <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
-  <remote fetch="https://github.com/Freescale" name="community"/>
-  <remote fetch="https://github.com/openembedded" name="oe"/>
-  <remote fetch="https://github.com/OSSystems" name="OSSystems"/>
-  <remote fetch="https://code.qt.io/yocto"  name="QT6"/>
-  <remote fetch="https://github.com/TimesysGit"  name="Timesys"/>
-  <remote fetch="https://git.openembedded.org"  name="python2"/>
-  <remote fetch="https://source.codeaurora.org/external/imx" name="CAF"/>
-  <remote fetch="https://github.com/kraj" name="clang"/>
-  <remote fetch="https://source.codeaurora.org/external/imxsupport" name="imx-support"/>
+
+  <remote name="yocto"       fetch="https://git.yoctoproject.org"/>
+  <remote name="oe"          fetch="https://github.com/openembedded"/>
+  <remote name="kraj"        fetch="https://github.com/kraj"/>
+
+  <remote name="community"   fetch="https://github.com/Freescale"/>
+  <remote name="ossystems"   fetch="https://github.com/OSSystems"/>
+  <remote name="qt"          fetch="https://code.qt.io/yocto"/>
+  <remote name="timesys"     fetch="https://github.com/TimesysGit"/>
+
+  <remote name="nxp-imx"     fetch="https://github.com/nxp-imx"/>
+  <remote name="imx-support" fetch="https://github.com/nxp-imx-support"/>
 
 
-  <remote fetch="https://github.com/embeddedartists"  name="EA"/>
-  <remote fetch="https://github.com/murata-wireless"  name="Murata"/>
+  <remote name="EA"          fetch="https://github.com/embeddedartists"/>
+  <remote name="Murata"      fetch="https://github.com/murata-wireless"/>
 
-  <project name="fsl-community-bsp-base" path="sources/base" remote="community" revision="60f79f7af60537146298560079ae603260f0bd14" upstream="kirkstone">
+  <project name="meta-arm" path="sources/meta-arm" remote="yocto" revision="025124814e8676e46d42ec5b07220283f1bdbcd0" upstream="langdale"/>
+  <project name="meta-security" path="sources/meta-security" remote="yocto" revision="2aa48e6f4e519abc7d6bd56da2c067309a303e80" upstream="langdale"/>
+  <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="8857b36ebfec3d548755755b009adc491ef320ab" upstream="langdale"/>
+  <project name="poky" path="sources/poky" remote="yocto" revision="b50f718e4cb73214e7ad298484ecdadd6cfeb866" upstream="langdale"/>
+  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="c354f92778c1d4bcd3680af7e0fb0d1414de2344" upstream="langdale"/>
+  <project name="meta-clang" path="sources/meta-clang" remote="kraj" revision="22f1cc330d3501923d2dc27cd3fc424c69c3a73a" upstream="master"/>
+
+  <project name="fsl-community-bsp-base" path="sources/base" remote="community" revision="60f79f7af60537146298560079ae603260f0bd14" upstream="master">
     <linkfile dest="README" src="README"/>
     <linkfile dest="setup-environment" src="setup-environment"/>
   </project>
+  <project name="meta-freescale" path="sources/meta-freescale" remote="community" revision="09c47379218167dda9fb0098129909a667fea2ec" upstream="master"/>
+  <project name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty" remote="community" revision="96c1f6a6c2cad246687cd695e0873fcc6cdde935" upstream="master"/>
+  <project name="meta-freescale-distro" path="sources/meta-freescale-distro" remote="community" revision="1069c2f210b18cd707a4d8a82140a684a42a4ff6" upstream="master"/>
+  <project name="meta-browser" path="sources/meta-browser" remote="ossystems" revision="e232c2e21b96dc092d9af8bea4b3a528e7a46dd6"/>
+  <project name="meta-qt6" path="sources/meta-qt6" remote="qt" revision="4f7d02004cd78f0fca77489deb7487bfb301ea36" upstream="6.4"/>
+  <project name="meta-timesys" path="sources/meta-timesys" remote="timesys" revision="33a45eb06bead2509f1bf5bf46a5bbc85d66583b" upstream="langdale"/>
 
-  <project name="meta-browser" path="sources/meta-browser" remote="OSSystems" revision="d25d8ee98a656b2534d0eec6138ef264529fab4f"/>
+  <project name="meta-imx" remote="nxp-imx" path="sources/meta-imx" revision="refs/tags/rel_imx_6.1.1_1.0.0" upstream="langdale-6.1.1-1.0.0" />
+  <project name="meta-nxp-demo-experience" path="sources/meta-nxp-demo-experience" remote="imx-support" revision="c057a681cf11923b22e16b9cdb0ad2b9187eced2" upstream="langdale-6.1.1-1.0.0"/>
 
-  <project name="meta-freescale" path="sources/meta-freescale" remote="community" revision="2fb1ce365338126aad365012ebb913b3e4a9f1be" upstream="kirkstone"/>
-  <project name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty" remote="community" revision="de0eb1408150d77f9cce97c559f9a5a3c71e5d6c" upstream="kirkstone"/>
-  <project name="meta-freescale-distro" path="sources/meta-freescale-distro" remote="community" revision="fc15f5003043da23212596be7366ae2547c308ad" upstream="kirkstone"/>
-
-  <project name="meta-imx" path="sources/meta-imx" remote="CAF" revision="refs/tags/rel_imx_5.15.32_2.0.0" upstream="kirkstone-5.15.32-2.0.0"/>
-
-  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="5357c7a40eaf8d1bcf7ff58edbba8e9527e40c7d" upstream="kirkstone"/>
-  <project name="meta-python2" path="sources/meta-python2" remote="python2" revision="f02882e2aa9279ca7becca8d0cedbffe88b5a253" upstream="kirkstone"/>
-
-  <project remote="QT6" name="meta-qt6" path="sources/meta-qt6" revision="b2894aad5c1aaa85f2f5c7b94391b7c51c39e555" upstream="6.3"/>
-
-  <project name="meta-timesys" path="sources/meta-timesys" remote="Timesys" revision="edce180f0389a13e678cb0edafb7f8980648e1a4"/>
-
-  <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="973c8d0964c6f40338857efe5b8009b2f647d485"/>
-  <project name="poky" path="sources/poky" remote="yocto" revision="27de52e402ae000dfa502d52908cd6e6aef923ec" upstream="kirkstone"/>
-
-  <project name="meta-clang" path="sources/meta-clang" remote="clang" revision="85d956d95401479ca666139e31f662f60c156d5f" upstream="kirkstone"/>
-  <project name="meta-nxp-demo-experience" path="sources/meta-nxp-demo-experience" remote="imx-support" revision="8fade3993b832ecd823771644f2a7b731f8f4527" upstream="kirkstone"/>
-
-  <project remote="EA" name="meta-ea" path="sources/meta-ea" revision="fcb846dff607f57c372ef54f7646ec0b62aaad8c" >
+  <project remote="EA" name="meta-ea" path="sources/meta-ea" revision="0481fa0197bf62266debd4778feacbd2cc975c03" >
      <copyfile src="ea-setup-release.sh" dest="ea-setup-release.sh"/>
   </project>
 
-  <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="bd6327be7f8ba85506ae7ebe91ecf6eaf1a562e7" />
+  <!--
+  <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="9217aa87d9894a10f70a6f4435fe95e084f9dd7a" />
+  -->
 
 </manifest>

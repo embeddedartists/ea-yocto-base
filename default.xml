@@ -11,9 +11,9 @@
   <remote fetch="https://github.com/TimesysGit"  name="Timesys"/>
   <remote fetch="https://github.com/meta-rust"  name="rust"/>
   <remote fetch="git://git.openembedded.org"  name="python2"/>
-  <remote fetch="https://source.codeaurora.org/external/imx" name="CAF"/>
+  <remote fetch="https://github.com/nxp-imx" name="nxp-imx"/>
   <remote fetch="https://github.com/kraj" name="clang"/>
-  <remote fetch="https://source.codeaurora.org/external/imxsupport" name="imx-support"/>
+  <remote fetch="https://github.com/nxp-imx-support" name="imx-support"/>
 
 
   <remote fetch="https://github.com/embeddedartists"  name="EA"/>
@@ -30,7 +30,7 @@
   <project name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty" remote="community" revision="7f23af99cb97a12134a46b5b9d497f05b758bf0c"/>
   <project name="meta-freescale-distro" path="sources/meta-freescale-distro" remote="community" revision="916df6d24c0a33a3b1533bde70b6a2724ec77af4"/>
 
-  <project name="meta-imx" path="sources/meta-imx" remote="CAF" revision="refs/tags/rel_imx_5.10.35_2.0.0" upstream="hardknott-5.10.35-2.0.0"/>
+  <project name="meta-imx" path="sources/meta-imx" remote="nxp-imx" revision="refs/tags/rel_imx_5.10.35_2.0.0_gh" upstream="hardknott-5.10.35-2.0.0"/>
 
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="c3a36263f91e42302ad7c347e051cf1cd83e39f6"/>
   <project name="meta-python2" path="sources/meta-python2" remote="python2" revision="810d6d842f103eb59f18b06426106462b15de7e2"/>

@@ -41,11 +41,11 @@
   <project name="meta-imx" remote="nxp-imx" path="sources/meta-imx" revision="refs/tags/rel_imx_6.1.36_2.1.0" upstream="mickledore-6.1.36-2.1.0" />
   <project name="meta-nxp-demo-experience" path="sources/meta-nxp-demo-experience" remote="imx-support" revision="7f34a32c7877e55e87b6a99e90da4128ed632bf2" upstream="mickledore-6.1.36-2.1.0"/>
 
-  <project remote="EA" name="meta-ea" path="sources/meta-ea" revision="3de6fcb670980e2a544ea16fecd46547c5717301" >
+  <project remote="EA" name="meta-ea" path="sources/meta-ea" revision="7840cb7e030e32779a96f5166e49b3e46d7bf8ac" >
      <copyfile src="ea-setup-release.sh" dest="ea-setup-release.sh"/>
   </project>
 
-  <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="bfe21945e118f88b4191269f1ea719981546a1d3" />
+  <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="5a860c2c80bae7e164ecd32ac1763c7d7fdca43d" />
 
 
 </manifest>

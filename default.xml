@@ -41,7 +41,7 @@
   <project name="meta-imx" remote="nxp-imx" path="sources/meta-imx" revision="refs/tags/rel_imx_6.1.36_2.1.0" upstream="mickledore-6.1.36-2.1.0" />
   <project name="meta-nxp-demo-experience" path="sources/meta-nxp-demo-experience" remote="imx-support" revision="7f34a32c7877e55e87b6a99e90da4128ed632bf2" upstream="mickledore-6.1.36-2.1.0"/>
 
-  <project remote="EA" name="meta-ea" path="sources/meta-ea" revision="290cc46e3a959d68f8b6350618d55b072f8887cd" >
+  <project remote="EA" name="meta-ea" path="sources/meta-ea" revision="e766a38f1812ff5648c6f5f62695845c49643136" >
      <copyfile src="ea-setup-release.sh" dest="ea-setup-release.sh"/>
   </project>
 

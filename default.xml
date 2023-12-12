@@ -46,7 +46,7 @@
   </project>
   <project remote="EA" name="meta-ea-rauc" path="sources/meta-ea-rauc" revision="dcc814d6dda04690d7ceaae95829909180fc0321" upstream="mickledore"/>
 
-  <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="095e39c1d29cf971c4e1d75780cf9c2595df6ab8" />
+  <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="47d102237f6fbd456c245ff2cfa2ebdb68757ff2" />
 
 
 </manifest>

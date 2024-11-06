@@ -44,7 +44,7 @@
   <project name="meta-matter" remote="imx" path="sources/meta-matter" revision="imx_matter_2024_q1-post" />
   <project name="meta-nxp-demo-experience" remote="imx-support" path="sources/meta-nxp-demo-experience" revision="scarthgap-6.6.23-2.0.0" />
 
-  <project remote="EA" name="meta-ea" path="sources/meta-ea" revision="c31387de79c4666d8a2a9d5e2dab41e8d63de14a" >
+  <project remote="EA" name="meta-ea" path="sources/meta-ea" revision="ae0d8d915a174222a2e56c01379bc672aafc85a2" >
      <copyfile src="ea-setup-release.sh" dest="ea-setup-release.sh"/>
   </project>
   <project remote="EA" name="meta-ea-rauc" path="sources/meta-ea-rauc" revision="dcc814d6dda04690d7ceaae95829909180fc0321" upstream="mickledore"/>

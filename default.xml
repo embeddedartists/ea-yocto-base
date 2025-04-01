@@ -44,12 +44,12 @@
   <project name="meta-matter" remote="imx" path="sources/meta-matter" revision="imx_matter_2024_q1-post" />
   <project name="meta-nxp-demo-experience" remote="imx-support" path="sources/meta-nxp-demo-experience" revision="scarthgap-6.6.23-2.0.0" />
 
-  <project remote="EA" name="meta-ea" path="sources/meta-ea" revision="f80ebf931e31b7ae74504e26ee790ca4f3e9dc88" >
+  <project remote="EA" name="meta-ea" path="sources/meta-ea" revision="d7d6e20a2fc650c022cda61a08bcb916d4e495bc" >
      <copyfile src="ea-setup-release.sh" dest="ea-setup-release.sh"/>
   </project>
   <project remote="EA" name="meta-ea-rauc" path="sources/meta-ea-rauc" revision="6f2944fa24973b071a3e73991d04a9e38bf8383f" upstream="scarthgap"/>
 
-  <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="6f6c4f27ef9a067c3cfd3910db3bd48f4e114dc8" />
+  <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="8d79a7311bbc0d8e8f4ee7356e5259e6501bccb9" />
 
 
 </manifest>

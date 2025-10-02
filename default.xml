@@ -49,7 +49,7 @@
   <project remote="EA" name="meta-ea" path="sources/meta-ea" revision="50849e86950e6f85c3a0cd896431f32bd15a7fdc" >
      <copyfile src="ea-setup-release.sh" dest="ea-setup-release.sh"/>
   </project>
-  <project remote="EA" name="meta-ea-dx" path="sources/meta-ea-dx" revision="7218e8db833767a578357667fc637c9e30ee16f2" upstream="scarthgap"/>
+  <project remote="EA" name="meta-ea-dx" path="sources/meta-ea-dx" revision="b469c385e2d9dcb3f9fab036ef28c72610fc64b3" upstream="styhead"/>
   <project remote="EA" name="meta-ea-rauc" path="sources/meta-ea-rauc" revision="dc99b1a8a71aa8765b693e7e9438818d9b5c61e9" upstream="scarthgap"/>
 
   <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="67115b3d91353c5d6165c4bcd7430b2b475d6291" />

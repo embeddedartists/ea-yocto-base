@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <default sync-j="2"/>
-
+  <default revision="walnascar" sync-j="4"/>
 
   <remote name="yp"          fetch="https://git.yoctoproject.org"/>
   <remote name="oe"          fetch="https://github.com/openembedded"/>
@@ -16,35 +15,33 @@
   <remote name="imx"         fetch="https://github.com/nxp-imx"/>
   <remote name="imx-support" fetch="https://github.com/nxp-imx-support"/>
 
-
   <remote name="EA"          fetch="https://github.com/embeddedartists"/>
   <remote name="Murata"      fetch="https://github.com/murata-wireless"/>
 
+  <project name="poky" remote="yp" path="sources/poky" revision="b642d6a4a93a23d5b99886844ff7b224aa7e13bf" upstream="walnascar" />
+  <project name="meta-openembedded" remote="oe" path="sources/meta-openembedded" revision="dca497d728792e3cb655c78455c2d649af312ce8" upstream="walnascar" />
+  <project name="meta-clang" remote="kraj" path="sources/meta-clang" revision="003cba92e982bdd565a6889f28799f8bba14957e" upstream="walnascar" />
 
-  <project name="meta-arm"               remote="yp"        path="sources/meta-arm"            revision="0ef5fd96829b68977e6eb0d3b5e092283ce89f6f" upstream="styhead"/>
-  <project name="meta-virtualization"    remote="yp"        path="sources/meta-virtualization" revision="9e9f60e959f3710fb7a16b9829d950c3d94c0d4a" upstream="styhead"/>
-  <project name="meta-security"          remote="yp"        path="sources/meta-security"       revision="e2c44c8b5d02591ec0be3266d6667e16725bcb92" upstream="styhead"/>
-  <project name="poky"                   remote="yp"        path="sources/poky"                revision="bca4068948e4383cc18a24a3c224bbc339f7de2a" upstream="styhead"/>
-
-  <project name="meta-openembedded"      remote="oe"        path="sources/meta-openembedded"   revision="5d54a52fbeb69dba7b8ae11db98af4813951fa61" upstream="styhead"/>
-  <project name="meta-clang"             remote="kraj"      path="sources/meta-clang"          revision="c709a5196f1e8654425b43b478064395386c36d4" upstream="styhead"/>
-  <project name="meta-qt6"               remote="qt"        path="sources/meta-qt6"            revision="f4ef1331f0cc49bd4aa1e1aace6dc7f000b9651e" upstream="6.8.1" />
-  <project name="meta-browser"           remote="ossystems" path="sources/meta-browser"        revision="f988d616d37ddf160d3d747ed54d0a66d549f499" />
-  <project name="meta-timesys"           remote="timesys"   path="sources/meta-timesys"        revision="4d2a0309ba6b78d4ad877cf53670de87db7d5fb9" upstream="master"/>
-
-
-  <project name="fsl-community-bsp-base" remote="community" path="sources/base"                revision="84df0b1ff416c6739472f7f7eadff04fa90d38f6" upstream="master">
-    <linkfile dest="README" src="README"/>
-    <linkfile dest="setup-environment" src="setup-environment"/>
+  <project name="fsl-community-bsp-base" remote="community" path="sources/base" revision="84df0b1ff416c6739472f7f7eadff04fa90d38f6" upstream="master">
+    <linkfile dest="setup-environment" src="setup-environment" />
   </project>
-  <project name="meta-freescale"          remote="community" path="sources/meta-freescale"          revision="8cc3bb0ff75e38becfd0a9eced0b7dc22cb3f86c" upstream="master"/>
-  <project name="meta-freescale-3rdparty" remote="community" path="sources/meta-freescale-3rdparty" revision="774ca54bc00cc6c55fd92163441716d4c32f732f" upstream="master"/>
-  <project name="meta-freescale-distro"   remote="community" path="sources/meta-freescale-distro"   revision="f7be03965e7a0563761a73d5f3988cd9be40d3e9" upstream="master"/>
+  <project name="meta-freescale" remote="community" path="sources/meta-freescale" revision="167ff4ddb79299cf5477e94620a9e598659c407b" upstream="walnascar" />
+  <project name="meta-freescale-3rdparty" remote="community" path="sources/meta-freescale-3rdparty" revision="68d47bf4dde321f1289758fe6c36bfbdad81fc30" upstream="walnascar" />
+  <project name="meta-freescale-distro" remote="community" path="sources/meta-freescale-distro" revision="b9c3536b68271c420fe5de36fc284781ceaa32ab" upstream="walnascar" />
 
+  <project name="meta-arm" remote="yp" path="sources/meta-arm" revision="2de04c3d31e119d4bedbea24b9c63a8c113a1ce3" upstream="walnascar" />
+  <project name="meta-qt6" remote="qt" path="sources/meta-qt6" revision="00c3bd954341a2a755fdee6b978af952f51793e7" upstream="6.8.3" />
+  <project name="meta-browser" remote="ossystems" path="sources/meta-browser" revision="f988d616d37ddf160d3d747ed54d0a66d549f499" />
+  <project name="meta-security" remote="yp" path="sources/meta-security" revision="784ca4b6584101e971b2d5d76ec7b716ad1301b5" upstream="walnascar" />
+  <project name="meta-timesys" remote="timesys" path="sources/meta-timesys"  revision="3c362eeeb68523a88c2301e29ab1fd4802284e50" upstream="master" />
+  <project name="meta-virtualization" remote="yp" path="sources/meta-virtualization" revision="898239e810acbb7db93299f20deec8afe434f11b" upstream="walnascar" />
 
-  <project name="meta-imx"                 remote="imx"         path="sources/meta-imx"                 revision="refs/tags/rel_imx_6.12.3_1.0.0"       upstream="styhead-6.12.3-1.0.0"/>
-  <project name="meta-nxp-connectivity"    remote="imx"         path="sources/meta-nxp-connectivity"    revision="refs/tags/rel_imx_6.12.3-1.0.0"       upstream="imx_matter_2024_q4-post"/>
-  <project name="meta-nxp-demo-experience" remote="imx-support" path="sources/meta-nxp-demo-experience" revision="refs/tags/rel_imx_6.12.3_1.0.0"       upstream="styhead-6.12.3-1.0.0"/>
+  <project name="meta-imx" remote="imx" path="sources/meta-imx" revision="refs/tags/rel_imx_6.12.34_2.1.0" upstream="walnascar-6.12.34.2.1.0">
+     <linkfile src="tools/imx-setup-release.sh" dest="imx-setup-release.sh" />
+     <linkfile src="README.md" dest="README.md" />
+  </project>
+  <project name="meta-nxp-connectivity" remote="imx" path="sources/meta-nxp-connectivity" revision="refs/tags/rel_imx_6.12.34_2.1.0" upstream="imx_matter_2025_q1-post" />
+  <project name="meta-nxp-demo-experience" remote="imx-support" path="sources/meta-nxp-demo-experience" revision="refs/tags/rel_imx_6.12.34_2.1.0" upstream="walnascar-6.12.34-2.1.0" />
 
   <project remote="EA" name="meta-ea" path="sources/meta-ea" revision="b06c60f079a96d32d10d47b56beada760ffbdf3d" >
      <copyfile src="ea-setup-release.sh" dest="ea-setup-release.sh"/>
@@ -53,6 +50,5 @@
   <project remote="EA" name="meta-ea-rauc" path="sources/meta-ea-rauc" revision="dc99b1a8a71aa8765b693e7e9438818d9b5c61e9" upstream="scarthgap"/>
 
   <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="67115b3d91353c5d6165c4bcd7430b2b475d6291" />
-
 
 </manifest>

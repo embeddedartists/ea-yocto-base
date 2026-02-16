@@ -46,13 +46,13 @@
   <project name="meta-nxp-connectivity"    remote="imx"         path="sources/meta-nxp-connectivity"    revision="refs/tags/rel_imx_6.12.3-1.0.0"       upstream="imx_matter_2024_q4-post"/>
   <project name="meta-nxp-demo-experience" remote="imx-support" path="sources/meta-nxp-demo-experience" revision="refs/tags/rel_imx_6.12.3_1.0.0"       upstream="styhead-6.12.3-1.0.0"/>
 
-  <project remote="EA" name="meta-ea" path="sources/meta-ea" revision="1c94e02590c38f745baa976bf3aa3c7602443717" >
+  <project remote="EA" name="meta-ea" path="sources/meta-ea" revision="30fbf3287dd4c55501516614cc72309f0ba7066e" >
      <copyfile src="ea-setup-release.sh" dest="ea-setup-release.sh"/>
   </project>
   <project remote="EA" name="meta-ea-dx" path="sources/meta-ea-dx" revision="b469c385e2d9dcb3f9fab036ef28c72610fc64b3" upstream="styhead"/>
   <project remote="EA" name="meta-ea-rauc" path="sources/meta-ea-rauc" revision="dc99b1a8a71aa8765b693e7e9438818d9b5c61e9" upstream="scarthgap"/>
 
-  <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="67115b3d91353c5d6165c4bcd7430b2b475d6291" />
+  <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="e060d2d1f708cead13f0fff143371f77d4a55a78" />
 
 
 </manifest>

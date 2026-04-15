@@ -52,7 +52,7 @@
   <project remote="EA" name="meta-ea-dx" path="sources/meta-ea-dx" revision="b469c385e2d9dcb3f9fab036ef28c72610fc64b3" upstream="styhead"/>
   <project remote="EA" name="meta-ea-rauc" path="sources/meta-ea-rauc" revision="dc99b1a8a71aa8765b693e7e9438818d9b5c61e9" upstream="scarthgap"/>
 
-  <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="8975b0d2d10e1530c1abb87e0695bec68c0b64b5" />
+  <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="cec39e629e6ae3e17327be91d99fa66bffcad82f" />
 
 
 </manifest>

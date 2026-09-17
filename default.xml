@@ -46,7 +46,7 @@
   <project name="meta-nxp-connectivity" remote="imx" path="sources/meta-nxp-connectivity" revision="refs/tags/rel_imx_6.18.20_2.0.0" upstream="imx_matter_2026_q1-post" />
   <project name="meta-nxp-demo-experience" remote="imx-support" path="sources/meta-nxp-demo-experience" revision="refs/tags/rel_imx_6.18.20_2.0.0" upstream="wrynose-6.18.20-2.0.0" />
 
-  <project remote="EA" name="meta-ea" path="sources/meta-ea" revision="0ed6ed31245d6443f0c609ed2a159db727861e29" >
+  <project remote="EA" name="meta-ea" path="sources/meta-ea" revision="d50dd9a1e1da4841030d0cfab08c0117e5752186" >
      <copyfile src="ea-setup-release.sh" dest="ea-setup-release.sh"/>
   </project>
 
